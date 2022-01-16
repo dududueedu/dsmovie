@@ -1,16 +1,18 @@
 import Stars from 'components/Stars'
 import './style.css'
 
-function Scores() {
+type Props = {
+    scoreP: number;
+    countP: number;
+}
 
-    const score = 2.8
-    const count = 13
+function Scores({scoreP, countP} : Props) {
 
     return (
         <div className="dsmovie-score-container">
-            <p className="dsmovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
-            <Stars />
-            <p className="dsmovie-score-count">{count} avaliações</p>
+            <p className="dsmovie-score-value">{scoreP > 0 ? scoreP.toFixed(1) : '-'}</p>
+            <Stars score={scoreP}/>
+            <p className="dsmovie-score-count">{countP} avaliações</p>
         </div>
     )
 }
