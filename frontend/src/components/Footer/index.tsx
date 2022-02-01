@@ -10,28 +10,28 @@ function Footer() {
             <div className="container p-4 pb-0">
                 <section className="mb-4">
                     <a
-                        href="#!"
+                        href="https://www.facebook.com/profile.php?id=100005503066960"
                         role="button"
                     >
                         <FaceBook />
                     </a>
 
                     <a
-                        href="#!"
+                        href="mailto:eduardooffside@alu.ufc.br"
                         role="button"
                     >
                         <Google />
                     </a>
 
                     <a
-                        href="#!"
+                        href="https://www.instagram.com/du.dudu.e_edu/"
                         role="button"
                     >
                         <Instagram />
                     </a>
 
                     <a
-                        href="#!"
+                        href="https://www.linkedin.com/in/dududueedu/"
                         role="button"
                     >
                         <LinkdIn />
