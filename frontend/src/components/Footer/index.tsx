@@ -12,6 +12,8 @@ function Footer() {
                     <a
                         href="https://www.facebook.com/profile.php?id=100005503066960"
                         role="button"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <FaceBook />
                     </a>
@@ -19,6 +21,8 @@ function Footer() {
                     <a
                         href="mailto:eduardooffside@alu.ufc.br"
                         role="button"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <Google />
                     </a>
@@ -26,6 +30,8 @@ function Footer() {
                     <a
                         href="https://www.instagram.com/du.dudu.e_edu/"
                         role="button"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <Instagram />
                     </a>
@@ -33,6 +39,8 @@ function Footer() {
                     <a
                         href="https://www.linkedin.com/in/dududueedu/"
                         role="button"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <LinkdIn />
                     </a>
